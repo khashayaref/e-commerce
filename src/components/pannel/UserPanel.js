@@ -13,7 +13,7 @@ import { useState } from 'react'
 
 const UserPanel = ({}) => {
 
-    const [closeDetails, setCloseDetails] = useState(false)
+    const [closeDetails, setCloseDetails] = useState(true)
 
     return ( 
         <div className="user-panel">
@@ -28,7 +28,7 @@ const UserPanel = ({}) => {
                                     {closeDetails ? <FaAngleUp></FaAngleUp> : <FaAngleDown></FaAngleDown>}
                                 </i>
                             </div>
-                            <div className="details">
+                            {closeDetails && <div className="details">
                                 <div className="details-item">
                                     <span>سطح دسترسی: </span>
                                     <span>ادمین</span>
@@ -37,7 +37,7 @@ const UserPanel = ({}) => {
                                     <span>وضعیت: </span>
                                     <span>آنلاین</span>
                                 </div>
-                            </div>
+                            </div>}
                             
                         </div>
                         <div className="menu-btns">
