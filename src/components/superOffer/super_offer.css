@@ -1,0 +1,87 @@
+.supper-offer-sec{
+    padding: 20px;
+    font-size: 1em;
+}
+
+.supper-offer-sec .supper-offer-box{
+    text-align: center;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.supper-offer-sec .supper-offer-box .title-supper-box{
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 30px;
+    display: inline-block;
+    border-radius: 0 0 20px 20px;
+}
+
+.supper-offer-sec .supper-offer-box .body{
+
+}
+
+.supper-offer-sec .supper-offer-box .body .image-container{
+    text-align: center;
+    padding: 30px;
+}
+
+.supper-offer-sec .supper-offer-box .body .image-container img{
+    /* width: 100%; */
+}
+
+.supper-offer-sec .supper-offer-box .body .specification{
+    padding: 30px 5px;
+}
+
+.supper-offer-sec .supper-offer-box .body .specification .price-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.supper-offer-sec .supper-offer-box .body .specification .price-row .price{
+    margin-left: 50px;
+    color: #444;
+    font-size: 1.2em;
+}
+
+.supper-offer-sec .supper-offer-box .body .specification .price-row .percentage{
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 20px;
+
+}
+
+.supper-offer-sec .supper-offer-box .body .specification .title{
+    font-weight: bold;
+    margin: 40px 0;
+    color: #444;
+    font-size: 1.4em;
+}
+
+.supper-offer-sec .supper-offer-box .body .specification .counter-down{
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    margin: 10px 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #666;
+    font-size: 1.5em;
+}
+
+.supper-offer-sec .supper-offer-box .body .specification .remaining-time{
+    color: #777;
+    font-size: .8em;
+}
+
+.supper-offer-sec .banner{
+    text-align: center;
+    padding: 0 5px;
+}
+
+.supper-offer-sec .banner img{
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}

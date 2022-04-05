@@ -1,0 +1,84 @@
+.login-container{
+    background:  radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(21,21,64,1) 85%, rgba(0,212,255,1) 100%);
+    padding: 30px;
+    /* height: 100vh; */
+}
+
+.login-container .login-box{
+    font-size: .8em;
+    box-shadow: 0 2px 8px 0 rgba(255, 255, 255, .2);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .1);
+    padding: 25px 35px;
+    color: white;
+    margin: 20px 60px;
+}
+
+.login-container .login-box form{
+
+}
+
+.login-container .login-box .social-auth{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgba(255 , 255, 255, .8);
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.login-container .login-box .social-auth a{
+    color: white;
+    font-size: 1.9em;
+}
+
+.login-container .login-box .input-group{
+    margin: 30px 0;
+}
+
+.login-container .login-box .input-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-container .login-box .input-group input{
+    border: none;
+    background: none;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    outline: none;
+}
+
+.login-container .login-box .do-you-have{
+
+}
+
+.login-container .login-box .do-you-have a{
+    color: #eb4d4b;
+}
+
+.login-container .login-box .submit-container{
+    text-align: center;
+}
+
+.login-container .login-box .submit-container input{
+    border: none;
+    border-radius: 35px;
+    background-color: #eb4d4b;
+    color: white;
+    padding: 10px 40px;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.login-container .login-image-container{
+    
+}
+
+.login-container .login-image-container img{
+    width: 100%;
+}

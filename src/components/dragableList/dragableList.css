@@ -1,0 +1,39 @@
+.slick-next{
+    right: 0px !important;
+    background-color: black !important;
+}
+
+.slick-prev{
+    left: 0 !important;
+    background-color: black !important;
+    z-index: 1;
+}
+
+.slick-list{
+    direction: ltr;
+}
+
+.slick-track{
+    direction: ltr;
+}
+
+.slick-initialized .slick-slide{
+    display: flex !important;
+    justify-content: center;
+}
+
+.dragable-list .title{
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+
+.dragable-list .title span{
+    font-size: 1.2em;
+    color: #444;
+    border-bottom: 1.5px solid #e74c3c;
+    padding-bottom: 8px;
+}
+
+.dragable-list .carousel{
+
+}

@@ -1,0 +1,61 @@
+
+.main-header{
+    font-size: 1em;
+}
+
+.main-header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+
+.main-header .nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.main-header .nav-right a{
+    color: #444;
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 1.1em;
+}
+
+.main-header .nav-right a:hover{
+    color: #2980b9;
+}
+
+.main-header .nav-left{
+
+}
+
+.main-header .nav-left .register-login-btn{
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 5px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.main-header .nav-left .register-login-btn:hover svg{ 
+    color: #2980b9;
+}
+
+.main-header .nav-left .register-login-btn:hover a{
+    color: #2980b9;
+}
+
+.main-header .nav-left .register-login-btn svg{
+    margin: 7px;
+    color: #444;
+    font-size: 1.1em;
+}
+
+.main-header .nav-left .register-login-btn a{
+    color: #444;
+    margin: 0 10px;
+    font-size: 0.9em;
+}

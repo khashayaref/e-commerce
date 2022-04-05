@@ -1,0 +1,90 @@
+.shopping-card{
+    text-align: center;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.shopping-card .image-sec{
+    position: relative;
+}   
+
+.shopping-card .image-sec img{
+    width: 50%;
+}
+
+.shopping-card .image-sec .hot-offer{
+    background-color: #e74c3c;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.9em;
+}
+
+.shopping-card .image-sec .stars{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #f1c40f;
+}
+
+
+.shopping-card .title{
+    color: #333;
+    margin: 15px;
+}
+
+.shopping-card .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.shopping-card .buttons .right{
+
+}
+
+.shopping-card .buttons .right .price{
+    color: #666;
+    font-weight: bold;
+}
+
+.shopping-card .buttons .left{
+    display: flex;
+}
+
+.shopping-card .buttons .extend-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    align-items: center;
+    background-color: #27ae60;
+    color: white;
+    width: 40px;
+    padding: 8px 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.shopping-card .buttons .extend-btn:hover{
+    width: 80px;
+}
+
+.shopping-card .buttons .extend-btn:hover .b-text{
+    display: block;
+}
+
+.shopping-card .buttons .extend-btn .b-text{
+    display: none;
+    color: white;
+}
+
+.shopping-card .buttons .extend-btn a{
+    color: white;
+}

@@ -1,0 +1,220 @@
+.user-panel{
+
+}
+
+.user-panel .menu{
+    font-size: 1em;
+}
+
+.user-panel .menu .user-info{
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, .6);
+}
+
+.user-panel .menu .user-info .image-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid rgba(255, 255, 255, .6);
+}
+
+.user-panel .menu .user-info .image-name img{
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.user-panel .menu .user-info .image-name .name{
+    font-size: .9;
+    margin-right: 10px;
+}
+
+.user-panel .menu .user-info .image-name i{
+    color: #2980b9;
+    cursor: pointer;
+}
+
+.user-panel .menu .user-info .details{
+    padding: 10px 5px;
+}
+
+.user-panel .menu .user-info .details .details-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-panel .menu .user-info .details .details-item span{
+    font-size: .8em;
+    color: #7f8c8d;
+    margin-top: 15px;
+}
+
+.menu .menu-btns .item{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 30px 20px 0;
+    color: black;
+    align-items: center;
+}
+
+.menu .menu-btns .item:hover{
+    background-color: #ecf0f1;
+}
+
+.menu .menu-btns .item i{
+    color: #2980b9;
+    margin-left: 10px;
+    font-size: 1.3em;
+    padding-top: 6px;
+}
+
+.menu .menu-btns .item-active{
+    background-color: #ecf0f1;
+}
+
+.main-box nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.main-box nav .right{
+    display: flex;
+    align-items: center;
+}
+
+.main-box nav .right .search{
+    position: relative;
+}
+
+.main-box nav .right i:first-child{
+    font-size: 1.5em;
+    padding-top: 5px;
+    margin-left: 10px;
+    color: #2980b9;
+    cursor: pointer;
+}
+
+.main-box nav .right .search input{
+    background-color: #ecf0f1;
+    border: none;
+    padding: 10px;
+    width: 400px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.main-box nav .right .search i{
+    cursor: pointer;
+    position: absolute;
+    left: 7px;
+    top: 10px;
+}
+
+.main-box nav .left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-box nav .left a{
+    margin-left: 10px;
+    color: #2c3e50;
+    transition: color .2s;
+}
+
+.main-box nav .left a:hover{
+    color: #2980b9;
+}
+
+.main-box .holder{
+    background-color: #f1f2f6;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.main-box .header-message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-box .header-message .lang-btn{
+    background-color: #ecf0f1;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: color .2s;
+}
+
+.main-box .header-message .lang-btn:hover{
+    color: #2980b9;
+    
+}
+
+.main-box .holder .minicard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box .holder .minicard .right{
+    background-color: rgba(255, 255, 255, .8);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 25px 15px;
+}
+
+.main-box .holder .minicard .right i{
+    color: #3498db;
+    font-size: 1.1em;
+}
+
+.main-box .holder .minicard .left{
+    background-color: white;
+    padding: 16px 50px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-box .holder .minicard .left span:first-child{
+    color: #2980b9;
+}
+
+.holder .income-box{
+    margin: 20px;
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, .1);
+}
+
+.holder .income-box .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .6);
+    padding: 5px 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.holder .income-box .header .left{
+    display: flex;
+    align-items: center;
+}
+
+.holder .income-box .header .left i{
+    color: #2980b9;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.holder .income-box .content{
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
